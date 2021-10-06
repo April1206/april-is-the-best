@@ -1,0 +1,18 @@
+body{
+    background-color: chartreuse;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: darkorchid;
+    font-size: 60px;
+    color: rgb(0, 255, 0);
+    text-align: center
+}
