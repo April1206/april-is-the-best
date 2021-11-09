@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-decoration: none;
 
 }
 .item{
@@ -26,6 +27,7 @@ body{
     font-size: 9px;
     color: rgb(255, 255, 255);
     align-items: center;  
+    text-decoration: none;
 }
 
 h1{
@@ -142,6 +144,11 @@ div2 {
     width: 5px;
     height: 300px;
     background-color: #82ff0d;
+    text-decoration: none;
     }
 
+a{
+    text-decoration: none;
+    color: #82ff0d;
+}
   
