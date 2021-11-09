@@ -50,7 +50,7 @@ body {
 p {
   background: none;
   color: rgb(0, 0, 0);
-  font-family: 'Dancing Script', 'Warnes', cursive;
+  font-family: "Press Start 2P";
   font-size: 200px;
   letter-spacing: 0px;
   cursor: pointer;
@@ -94,10 +94,12 @@ p:hover #n2 {
 div2 {
     background: none;
     color: rgb(0, 0, 0);
-    font-family: 'Dancing Script', 'Warnes', cursive;
     font-size: 100px;
     letter-spacing: 0px;
     cursor: pointer;
+    font-family: Iceland;
+    text-decoration: none;
+    text-decoration: #fff;
   }
   
   div2:hover span {
