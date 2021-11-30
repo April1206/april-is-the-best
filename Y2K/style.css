@@ -2,7 +2,7 @@
     display:inline-block;
     padding: 0;
     margin: 10px;
-    box-sizing: border-box;
+  
 }
 nav{
     font-size: 6px;
@@ -149,6 +149,11 @@ div2 {
 
 a{
     text-decoration: none;
-    color: #82ff0d;
+    color: #000000;
+}
+
+b{
+  text-decoration: none;
+  color: #82ff0d;
 }
   
