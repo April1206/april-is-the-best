@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+  background: black;
+  font-family: 'VT323';
+}
+
+.output {
+  font-size: 20em;
+  color: #5DFC0A;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+  margin: 0;
+}
