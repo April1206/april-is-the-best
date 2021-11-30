@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
+*{
+  margin: 3%;
+}
 body {
   background: black;
-  font-family: 'VT323';
+ 
 }
 
 .output {
@@ -21,4 +24,5 @@ h1 {
   font-size: 5em;
   color: white;
   margin: 0;
+  font-family: 'VT323';
 }
