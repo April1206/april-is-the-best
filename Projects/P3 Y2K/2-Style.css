@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+
+.output {
+  font-size: 20em;
+  color: #5DFC0A;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+  margin: 0;
+  font-family: 'VT323';
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    margin: 0;
+  }
+  
+  .section {
+    height: 100vh;
+  }
+  
+  #home {
+    background: #000000;
+  }
+  
+  #about {
+    background: #52ff0c;
+  }
+  
+  #contact {
+    background: #a200ff;
+  }
+  
+  .nav {
+    --nav-gap: 15px;
+    padding: var(--nav-gap);
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .nav-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: var(--nav-gap);
+  }
+  
+  .nav-link:hover ~ .nav-label {
+    opacity: 1;
+  }
+  
+  .nav-label {
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  
+  .nav-link {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    height: var(--nav-gap);
+    margin-left: var(--nav-gap);
+    transition: transform 0.1s;
+    width: var(--nav-gap);
+  }
+  
+  .nav-link-selected {
+    background: #ffffff;
+    transform: scale(1.4);
+  }
+
+img
+{
+  width:520px;
+  height: 330px;
+  float:right; 
+  margin:10px;
+  -webkit-transition: all 1s
+}
+
+/*Filter styles*/
+.saturate {-webkit-filter: saturate(3);}
+.grayscale {-webkit-filter: grayscale(100%);}
+.contrast {-webkit-filter: contrast(160%);}
+.brightness {-webkit-filter: brightness(0.25);}
+.blur {-webkit-filter: blur(3px);}
+.invert {-webkit-filter: invert(100%);}
+.sepia {-webkit-filter: sepia(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg);}
+.rss.opacity {-webkit-filter: opacity(50%);}
+
+/* preview the difference */
+img:hover{-webkit-filter:none;}
+
+
+
+
+
+
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+
+.k1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
+
+
+
+header {
+  background-color: #000000;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  color: #52ff0c;
+}
+
+
+.yes{
+  text-decoration: none;
+  color: chartreuse;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  color: #fff;
+  padding: 20px;
+  width: 98.5%;
+  background-color: #000000;
+  height: 800px;
+ 
+}
+.yyy{
+  background-color: #000000;
+}
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #000000;
+}
+
+/* Style the footer */
+
+
+April {
+  font-size: 30px;
+  color:#82ff0d;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+}
