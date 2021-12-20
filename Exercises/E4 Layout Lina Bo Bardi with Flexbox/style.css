@@ -1,0 +1,57 @@
+/* this is the reset to remove html element styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%; 
+    color: darkturquoise;
+    font-size: 70px; 
+    font-weight: bold;
+}
+.container{
+    background-color: blueviolet;
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+nav, footer {
+    height: 20%;
+    background-color: blueviolet;
+}
+
+main {
+    height: 60%;
+    background-color: rgb(57, 224, 160);
+}
+
+aside {
+    width: 20%;
+    background-color: rgb(225, 0, 255);
+    height: 100%;
+    float: left;
+}
+
+section {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(123, 255, 0);
+    float: left;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 300PX;
+    top: 300px;
+    right: 200px;
+    background-color:blue;
+}
