@@ -13,25 +13,12 @@ body{
 
 }
 .item{
-    width: 100px;
-    height: 100px;
-    margin: 50px;
+    width: 25%;
+    height: 100%;
+    margin: 20px;
     background-color: darkorchid;
-    font-size: 60px;
+    font-size: 10px;
     color: rgb(0, 255, 0);
     text-align: center
 }
 
-.item:nth-child(1){
-    flex-grow: 2;
-    order: 4; 
-    background-color:deeppink;
-    align-self: flex-end;
-  }
-  
-  .item:nth-child(3){
-    order: 3; 
-    background-color: rgb(9, 196, 253);
-    align-self: flex-end;
-  }
-}
