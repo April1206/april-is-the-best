@@ -1,7 +1,12 @@
 .js-button{
-    background-color:green;
-    height: 340px;
-    width: 340px;
+    background-color:rgb(0, 255, 0);
+    height: 10px;
+    width: 10px;
+    float:middle;
+  }
+
+  *{
+    background-color: rgb(0, 0, 0);
   }
   
   
