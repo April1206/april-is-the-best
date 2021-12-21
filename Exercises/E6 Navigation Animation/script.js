@@ -1,9 +1,7 @@
-const button = document.querySelector('.js-button');
+let square = document.querySelector(".square");
 
-button,addEventListener('click',secretSauce);
-
-function secretSauce(){
-  
-  alert('wanna🥥?')
-  botton.innerHTML = "<p>I am a button</p>"
+function moveRight(){
+  square.classList.add("run-animation");
 }
+
+square.addEventListener("click", moveRight);
