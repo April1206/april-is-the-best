@@ -1,12 +1,27 @@
-.js-button{
-    background-color:rgb(0, 255, 0);
-    height: 10px;
-    width: 10px;
-    float:middle;
-  }
-
   *{
     background-color: rgb(0, 0, 0);
   }
   
+  .square {
+    width:50px;
+    height:50px;
+    background:rgb(102, 255, 0);
+    font-size: 30px;
+    color: rgb(162, 0, 255);
+  }
   
+  /*2.write the animation */
+  @keyframes slide {
+    0% { transform: translateX(0)
+    }
+    50% {transform: translateY(500px);
+    }
+    100% {transform: translateX(0)
+    }
+  }
+  
+  /* 3. write the class to be triggered */
+  .run-animation {
+    animation: slide 5s;
+    animation-iteration-count:5;
+  }
