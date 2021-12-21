@@ -1,17 +1,16 @@
-console.log('it works')
+let nouns = ["💘","💗","💖"];
+let verbs = ["🥰","😘","🤩"];
+let adjectives = ["🐕","🦊","🐱"];
 
-let nouns = ["heart","cloud","ocean"];
-let verbs = ["look","make","continue"];
-let adjectives = ["good", "different","possible"];
+function sentence(){ 
+let noun = nouns[Math.floor(Math.random () * nouns.length)]
+let verb = verbs[Math.floor(Math.random () * verbs.length)]
+let adjective = adjectives[Math.floor(Math.random () * adjectives.length)]
 
-let noun = nouns [Math.floor(Math.random() * nouns.length)]
-let verb = verbs [Math.floor(Math.random() * verbs.length)]
-let adjective = adjectives [Math.floor(Math.random() * adjectives.length)]
+let sentence= `I ${noun} MY ${adjective}AND I ${verb} U .`
+console.log(sentence);
 
-console.log(noun)
-console.log(verb)
-let sentence = `my ${noun} leaps ${adjective} when i ${verb} a rainbow in the sky.`
+document.getElementById('sentence').innerHTML = "&quot;" + sentence + "&quot;";
+}
 
-console.log(sentence)
-
-
+sentence()
